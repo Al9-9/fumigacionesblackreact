@@ -1,0 +1,36 @@
+footer{}
+footer div.container{}
+footer div.footer-links{}
+footer div.footer-links a{}
+footer div.footer-images{}
+footer div.footer-images a{}
+footer div.footer-images img{}
+footer div.credit{}
+footer div.credit p{}
+
+@media(min-width:768px) and (max-width:1024px){
+footer{}
+footer div.container{}
+footer div.footer-links{}
+footer div.footer-links a{}
+footer div.footer-images{}
+footer div.footer-images a{}
+footer div.footer-images img{}
+footer div.credit{}
+footer div.credit p{}
+
+
+}
+@media(min-width:1024px){
+footer{}
+footer div.container{}
+footer div.footer-links{}
+footer div.footer-links a{}
+footer div.footer-images{}
+footer div.footer-images a{}
+footer div.footer-images img{}
+footer div.credit{}
+footer div.credit p{}
+
+
+}

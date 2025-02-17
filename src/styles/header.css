@@ -1,0 +1,108 @@
+/* Estilos generales para el Header */
+header {
+  background-image: linear-gradient(to right, #4b5750, #4c9f70); /* Degradado de azul a verde */
+  color: white;
+  padding: 16px 0;
+}
+
+  
+  header div.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  header div.logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  header div img.logo-img {
+    width: 200px;
+    height: auto;
+  }
+  
+  /* Navegación */
+  nav.navigation {
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav a.nav-link {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #e2f0e9; /* Gris claro para el hover */
+  }
+  
+  /* Responsive design: Ajuste en pantallas pequeñas */
+  @media (min-width: 768px) and (max-width: 1024px) { /* Estilos generales para el Header */
+    header {
+    
+    }
+    
+      
+      header div.container {
+       
+      }
+      
+      header div.logo {
+       
+      }
+      
+      header div img.logo-img {
+      
+      }
+      
+      /* Navegación */
+      nav.navigation {
+        
+      }
+      
+      nav a.nav-link {
+        
+      }
+      
+      .nav-link:hover {
+      }
+      
+    }
+  
+  
+      @media (min-width: 1024px) {
+        header {
+    
+        }
+        
+          
+          header div.container {
+           
+          }
+          
+          header div.logo {
+           
+          }
+          
+          header div img.logo-img {
+          
+          }
+          
+          /* Navegación */
+          nav.navigation {
+            
+          }
+          
+          nav a.nav-link {
+            
+          }
+          
+          .nav-link:hover {
+          }
+      }

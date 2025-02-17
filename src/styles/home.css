@@ -1,0 +1,68 @@
+main{}
+main section#home{}
+main section#home p{}
+main section#services{}
+main section#services div{}
+main section#services div img{}
+main section#services div p{}
+main section#clients{}
+main section#clients h2{}
+main section#clients div{}
+main section#clients div img{}
+main section#contact{}
+main section#contact h2{}
+main section#contact form{}
+main section#contact input{}
+main section#contact textarea{}
+main section#about{}
+main section#about h2{}
+main section#about p{}
+main.section-icon{}
+main.section-icons{}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    main{}
+main section#home{}
+main section#home p{}
+main section#services{}
+main section#services div{}
+main section#services div img{}
+main section#services div p{}
+main section#clients{}
+main section#clients h2{}
+main section#clients div{}
+main section#clients div img{}
+main section#contact{}
+main section#contact h2{}
+main section#contact form{}
+main section#contact input{}
+main section#contact textarea{}
+main section#about{}
+main section#about h2{}
+main section#about p{}
+main.section-icon{}
+main.section-icons{}
+}
+@media (min-width: 1024px) {
+    main{}
+    main section#home{}
+    main section#home p{}
+    main section#services{}
+    main section#services div{}
+    main section#services div img{}
+    main section#services div p{}
+    main section#clients{}
+    main section#clients h2{}
+    main section#clients div{}
+    main section#clients div img{}
+    main section#contact{}
+    main section#contact h2{}
+    main section#contact form{}
+    main section#contact input{}
+    main section#contact textarea{}
+    main section#about{}
+    main section#about h2{}
+    main section#about p{}
+    main.section-icon{}
+    main.section-icons{}
+}
