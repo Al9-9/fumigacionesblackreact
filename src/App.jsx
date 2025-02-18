@@ -24,13 +24,7 @@ function App() {
         </Routes>
       </Router>
 
-      {/* Aquí puedes agregar algunos elementos con animación */}
-      <div data-aos="fade-up">
-        <h2>Bienvenido a mi página</h2>
-      </div>
-      <div data-aos="zoom-in">
-        <p>Este contenido tiene una animación al entrar en la pantalla.</p>
-      </div>
+    
     </>
   );
 }
