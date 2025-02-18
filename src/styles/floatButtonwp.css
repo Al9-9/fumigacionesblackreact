@@ -1,2 +1,8 @@
-a.float-wp-button{}
-a.float-wp-button img{}
+a.float-wp-button{  cursor: pointer;}
+a.float-wp-button img{width: 65px;
+    position: fixed;
+    left: 14rem;
+    top: 38rem;
+    z-index: 10;
+    
+}

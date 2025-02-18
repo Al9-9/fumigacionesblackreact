@@ -2,35 +2,46 @@
 header {
   background-image: linear-gradient(to right, #4b5750, #4c9f70); /* Degradado de azul a verde */
   color: white;
-  padding: 16px 0;
+  padding: 0 0;
+     width: 100vw;
+
 }
 
   
   header div.container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
+padding: 0;
+margin: 0;
   }
   
   header div.logo {
-    font-size: 24px;
-    font-weight: bold;
+    display: flex;
+    align-items: center;
   }
   
   header div img.logo-img {
-    width: 200px;
+    width: 150px;
     height: auto;
   }
   
   /* Navegación */
   nav.navigation {
-    display: flex;
-    gap: 20px;
+    display: none
+    ;
+        flex-direction: column;
+        align-items: center;
+        padding:30px;
+        gap: 10px;
   }
   
+.navigation.open {
+    display: flex
+;
+    position: fixed;
+    background-image: linear-gradient(to right, #49574f, #476554);    top: 132px;
+    z-index: 10;
+    left: 0px;
+}
+
   nav a.nav-link {
     text-decoration: none;
     font-size: 18px;
@@ -39,9 +50,20 @@ header {
   }
   
   .nav-link:hover {
-    color: #e2f0e9; /* Gris claro para el hover */
+    color: #7a8ee6; /* Gris claro para el hover */
   }
-  
+  .menu-toggle {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  .svg-inline--fa {
+    display: var(--fa-display);
+    height: 1em;
+    overflow: visible;
+    vertical-align: -0.125em;
+    font-size: 50px;
+}
   /* Responsive design: Ajuste en pantallas pequeñas */
   @media (min-width: 768px) and (max-width: 1024px) { /* Estilos generales para el Header */
     header {
@@ -72,7 +94,9 @@ header {
       
       .nav-link:hover {
       }
-      
+      .menu-toggle {
+        display: flex; /* Muestra el icono de hamburguesa en pantallas pequeñas */
+      }
     }
   
   
@@ -96,7 +120,7 @@ header {
           
           /* Navegación */
           nav.navigation {
-            
+            display: flex;
           }
           
           nav a.nav-link {
@@ -104,5 +128,8 @@ header {
           }
           
           .nav-link:hover {
+          }
+          .menu-toggle {
+            display: none; /* Muestra el icono de hamburguesa en pantallas pequeñas */
           }
       }

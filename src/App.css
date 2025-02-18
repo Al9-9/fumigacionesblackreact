@@ -1,17 +1,18 @@
 @import url('./styles/header.css');
-@import url('./styles/footer.css');
 @import url('./styles/home.css');
-@import url("./styles/cardSection.css");
-@import url("./styles/floatButtonwp.css");
+@import url('./styles/cardSection.css');
+@import url('./styles/floatButtonwp.css');
+@import url('./styles/footer.css');
 
 
-
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Wix+Madefor+Display:wght@400..800&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Istok-Web', sans-serif; 
+    font-family: 'Outfit', sans-serif
+    
  
     
 }

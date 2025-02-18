@@ -1,30 +1,66 @@
-main{}
+main{
+    width: 100vw;
+    text-align: center;
+}
+main div.carousel{
+    width: 100vw;
+}
+main div.carousel img.banner{ width: 100vw;  
+    object-fit: contain; }
 main section#home{}
-main section#home p{}
+main section#home p{width: 100vw;
+    object-fit: contain;}
 main section#services{}
-main section#services div{}
-main section#services div img{}
-main section#services div p{}
+main section#services div.service{
+    width: 100vw;
+}
+main section#services div.service{}
+main section#services div.service img{width: 100vw;  
+    object-fit: contain;}
+main section#services div p{
+    
+}
 main section#clients{}
 main section#clients h2{}
-main section#clients div{}
-main section#clients div img{}
+main section#clients div{    display: flex
+    ;
+        align-items: center;
+        justify-content: space-evenly;
+}
+main section#clients div img{width: 60px;  
+    object-fit: contain;
+    cursor: pointer;}
 main section#contact{}
 main section#contact h2{}
-main section#contact form{}
-main section#contact input{}
-main section#contact textarea{}
+main section#contact form{    display: flex
+    ;
+        flex-direction: column;
+        align-items: center;}
+main section#contact input{    border: none;
+    border-bottom-style: groove;}
+main section#contact textarea{    border: none;
+    border-bottom-style: groove;}
 main section#about{}
 main section#about h2{}
 main section#about p{}
 main.section-icon{}
-main.section-icons{}
+main .section-icons{
+    display: flex
+    ;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+}
 
 @media (min-width: 768px) and (max-width: 1024px) {
     main{}
+    main div.carousel{}
+main div.carousel.banner{}
 main section#home{}
 main section#home p{}
 main section#services{}
+main section#services div.service{}
+
 main section#services div{}
 main section#services div img{}
 main section#services div p{}
@@ -45,9 +81,13 @@ main.section-icons{}
 }
 @media (min-width: 1024px) {
     main{}
+    main div.carousel{}
+main div.carousel.banner{}
     main section#home{}
     main section#home p{}
     main section#services{}
+    main section#services div.service{}
+
     main section#services div{}
     main section#services div img{}
     main section#services div p{}
