@@ -15,8 +15,15 @@ main div.carousel img.banner {
 main section#home {}
 
 section.card-section{}
-section.card-section div.card{}
-section.card-section img{}
+section.card-section div.card{display: flex;
+align-items: center;
+background-image: linear-gradient(to right, #4b5750, #4c9f70); /* Degradado de azul a verde */
+border-radius: 0;
+margin: 1rem;}
+section.card-section img{
+    width: 200px;
+}
+
 
 main section#home p {
     width: 100vw;

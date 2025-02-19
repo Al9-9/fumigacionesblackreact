@@ -41,21 +41,21 @@ function Home() {
             <CardImageSection
               icon={faHandshakeSimple}
               texto="Compromiso"
-              onClick={() => dropDownText(0)} // Pasa el índice único
+              onClick={() => dropDownText(0)} 
               info="En Fumigaciones Black, nos comprometemos a proporcionar servicios de la más alta calidad"
               className={`text-info${openTextIndex === 0 ? ' open' : ''}`} // Aplica la clase open si el índice coincide
             />
             <CardImageSection
               icon={faBriefcase}
               texto="Metodología"
-              onClick={() => dropDownText(1)} // Pasa el índice único
+              onClick={() => dropDownText(1)} 
               info="En Fumigaciones Black, seguimos un enfoque integral para el control de plagas..."
               className={`text-info${openTextIndex === 1 ? ' open' : ''}`} // Aplica la clase open si el índice coincide
             />
             <CardImageSection
               icon={faCertificate}
               texto="Certificado"
-              onClick={() => dropDownText(2)} // Pasa el índice único
+              onClick={() => dropDownText(2)} 
               info="Fumigaciones Black es una empresa habilitada a nivel provincial bajo el Nro. 2023-947."
               className={`text-info${openTextIndex === 2 ? ' open' : ''}`} // Aplica la clase open si el índice coincide
             />
