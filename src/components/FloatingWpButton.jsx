@@ -11,7 +11,7 @@ const FloatingWpButton = () => {
         className='float-wp-button'
         >
         <img
-        src='src/assets/image/WhatsApp.png'
+        src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" 
         alt='whatsapp'
         />
         </a>
