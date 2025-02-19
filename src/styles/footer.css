@@ -1,8 +1,10 @@
-footer{}
+footer{
+   text-align: center;
+}
 footer div.container{}
-footer div.footer-links{}
-footer div.footer-links a{}
-footer div.footer-images{}
+footer div.footer-links{ height: 8vh;}
+footer div.footer-links a{margin: 0.3rem;}
+footer div.footer-images{display: flex;  margin:1rem;  justify-content: space-evenly;}
 footer div.footer-images a{}
 footer div.footer-images img{}
 footer div.credit{}
@@ -15,7 +17,10 @@ footer div.footer-links{}
 footer div.footer-links a{}
 footer div.footer-images{}
 footer div.footer-images a{}
-footer div.footer-images img{}
+footer img.footer-image{
+   border-radius: 50%;
+   width: 400px!important
+}
 footer div.credit{}
 footer div.credit p{}
 

@@ -16,6 +16,7 @@ margin: 0;
   header div.logo {
     display: flex;
     align-items: center;
+    justify-content: space-around;
   }
   
   header div img.logo-img {
@@ -34,12 +35,7 @@ margin: 0;
   }
   
 .navigation.open {
-    display: flex
-;
-    position: fixed;
-    background-image: linear-gradient(to right, #49574f, #476554);    top: 132px;
-    z-index: 10;
-    left: 0px;
+   display: flex;
 }
 
   nav a.nav-link {
@@ -50,7 +46,7 @@ margin: 0;
   }
   
   .nav-link:hover {
-    color: #7a8ee6; /* Gris claro para el hover */
+    color: #94b8a2; /* Gris claro para el hover */
   }
   .menu-toggle {
     display: flex;
@@ -64,6 +60,8 @@ margin: 0;
     vertical-align: -0.125em;
     font-size: 50px;
 }
+
+
   /* Responsive design: Ajuste en pantallas pequeñas */
   @media (min-width: 768px) and (max-width: 1024px) { /* Estilos generales para el Header */
     header {
@@ -72,11 +70,14 @@ margin: 0;
     
       
       header div.container {
+       display: flex;
        
       }
       
       header div.logo {
-       
+        
+        width: 50%;
+      
       }
       
       header div img.logo-img {
@@ -85,17 +86,20 @@ margin: 0;
       
       /* Navegación */
       nav.navigation {
+        display: flex;
+        flex-direction: row;
+        width: 50%;
         
       }
       
       nav a.nav-link {
-        
+        font-size: 2rem;
       }
       
       .nav-link:hover {
       }
       .menu-toggle {
-        display: flex; /* Muestra el icono de hamburguesa en pantallas pequeñas */
+        display: none; /* Muestra el icono de hamburguesa en pantallas pequeñas */
       }
     }
   
@@ -106,25 +110,31 @@ margin: 0;
         }
         
           
-          header div.container {
+        header div.container {
+          display: flex;
+          
+         }
+         
+         header div.logo {
            
-          }
-          
-          header div.logo {
+           width: 50%;
+         
+         }
+         
+         header div img.logo-img {
+         
+         }
+         
+         /* Navegación */
+         nav.navigation {
+           display: flex;
+           flex-direction: row;
+           width: 50%;
            
-          }
-          
-          header div img.logo-img {
-          
-          }
-          
-          /* Navegación */
-          nav.navigation {
-            display: flex;
-          }
+         }
           
           nav a.nav-link {
-            
+            font-size: 1.3rem;
           }
           
           .nav-link:hover {

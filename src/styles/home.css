@@ -1,108 +1,264 @@
-main{
+main {
     width: 100vw;
     text-align: center;
 }
-main div.carousel{
+
+main div.carousel {
     width: 100vw;
 }
-main div.carousel img.banner{ width: 100vw;  
-    object-fit: contain; }
-main section#home{}
-main section#home p{width: 100vw;
-    object-fit: contain;}
-main section#services{}
-main section#services div.service{
+
+main div.carousel img.banner {
     width: 100vw;
+    object-fit: contain;
 }
-main section#services div.service{}
-main section#services div.service img{width: 100vw;  
-    object-fit: contain;}
-main section#services div p{
+
+main section#home {}
+
+section.card-section{}
+section.card-section div.card{}
+section.card-section img{}
+
+main section#home p {
+    width: 100vw;
+    object-fit: contain;
+}
+
+ section#service {
+    margin:1rem;
+ }
+
+ section#service h2{
+  
+}
+
+ section#service p {}
+
+ section#service ul{
+    background-color: aliceblue;
+    padding: 2rem;
+}
+
+ section#service ul li{    list-style: circle; transition: filter 0.3s ease, background-color 0.3s ease, color 0.3s ease;}
+ section#service ul li:hover{
+    color:rgb(0, 0, 0);
+
+        /* Aplica desenfoque */
+  transform: scale(1.05);
+  box-shadow: 10 10 150px rgba(101, 128, 10, 5)
+;
+border-radius: 2px;
+ }
+ section#service p.sec-work{}
+
+
+ section#clients {
+    padding: 1rem;
     
 }
-main section#clients{}
-main section#clients h2{}
-main section#clients div{    display: flex
-    ;
-        align-items: center;
-        justify-content: space-evenly;
+
+ section#clients h2 {height: 10vh;}
+
+ section#clients div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
-main section#clients div img{width: 60px;  
+
+ section#clients div img {
+    width: 60px;
     object-fit: contain;
-    cursor: pointer;}
-main section#contact{}
-main section#contact h2{}
-main section#contact form{    display: flex
-    ;
-        flex-direction: column;
-        align-items: center;}
-main section#contact input{    border: none;
-    border-bottom-style: groove;}
-main section#contact textarea{    border: none;
-    border-bottom-style: groove;}
-main section#about{}
-main section#about h2{}
-main section#about p{}
-main.section-icon{}
-main .section-icons{
-    display: flex
-    ;
-        flex-direction: column;
-        align-items: center;
-        width: 100vw;
+    cursor: pointer;
+    border-radius: 100%;
+}
+section#influence{text-align: center;}
+section#influence h2{height: 10vh;}
+section#influence p{}
+main section#contact {}
+
+main section#contact h2 {}
+
+main section#contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main section#contact input {
+    border: none;
+    border-bottom-style: groove;
+    width: 90%;
+    padding: 1rem;
+
+}
+
+main section#contact textarea {
+    border: none;
+    border-bottom-style: groove;
+    width: 90%;
+    padding: 1rem;
+
+}
+main section#contact button{}
+
+ section#about {
+    text-align: center;
+}
+
+
+ section#about h2 {}
+
+ section#about p {padding: 0;
+    margin: 1rem;}
+ section#about img{}
+ section#about ol{padding: 0;
+    margin: 1rem;}
+ section#about li{}
+
+main.section-icon {}
+
+main .section-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+
+.svg-inline--fa {
+    display: var(--fa-display);
+    height: 1em;
+    overflow: visible;
+    vertical-align: -0.125em;
+    font-size: 50px;
+    color: #0000008f;
+    padding: 1rem;
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-    main{}
-    main div.carousel{}
-main div.carousel.banner{}
-main section#home{}
-main section#home p{}
-main section#services{}
-main section#services div.service{}
+    main {}
 
-main section#services div{}
-main section#services div img{}
-main section#services div p{}
-main section#clients{}
-main section#clients h2{}
-main section#clients div{}
-main section#clients div img{}
-main section#contact{}
-main section#contact h2{}
-main section#contact form{}
-main section#contact input{}
-main section#contact textarea{}
-main section#about{}
-main section#about h2{}
-main section#about p{}
-main.section-icon{}
-main.section-icons{}
+    main div.carousel {}
+
+    main div.carousel img.banner {
+        width: 40rem;
+    }
+
+    main section#home {padding: 1rem;}
+
+    main section#home p {}
+    section.card-section{    display: flex;    justify-content: space-around; align-items: center;}
+section.card-section div.card{}
+section.card-section img{}
+
+     section#services {}
+
+     section#services div.service {}
+
+     section#services div {}
+
+     section#services div img {}
+
+     section#services div p {}
+
+     section#clients {}
+
+     section#clients h2 {}
+
+     section#clients div {}
+
+     section#clients div img {}
+     section#influence{}
+section#influence h2{}
+section#influence p{}
+
+    main section#contact {}
+
+    main section#contact h2 {}
+
+    main section#contact form {}
+
+    main section#contact input {}
+
+    main section#contact textarea {}
+    main section#contact button{}
+
+     section#about {}
+
+     section#about h2 {}
+
+     section#about p {}
+
+    main.section-icon {}
+
+    main.section-icons {}
 }
-@media (min-width: 1024px) {
-    main{}
-    main div.carousel{}
-main div.carousel.banner{}
-    main section#home{}
-    main section#home p{}
-    main section#services{}
-    main section#services div.service{}
 
-    main section#services div{}
-    main section#services div img{}
-    main section#services div p{}
-    main section#clients{}
-    main section#clients h2{}
-    main section#clients div{}
-    main section#clients div img{}
-    main section#contact{}
-    main section#contact h2{}
-    main section#contact form{}
-    main section#contact input{}
-    main section#contact textarea{}
-    main section#about{}
-    main section#about h2{}
-    main section#about p{}
-    main.section-icon{}
-    main.section-icons{}
+@media (min-width: 1024px) {
+    main {}
+
+    main div.carousel {}
+
+    main div.carousel img.banner {  width: 50rem;}
+
+    main section#home {               background-color: white;
+        padding: 2rem;
+        padding-left: 0;
+        margin-left: 0;
+        text-align: center;
+        overflow: hidden;}
+
+    main section#home p {}
+
+    section.card-section{display: flex;align-items: center;
+    justify-content: space-around;}
+    section.card-section div.card{}
+    section.card-section img{width: 300px; height: 200px;}
+
+  p.text-info.open{max-width: 100%;;
+display: flex; flex-direction: column;}
+
+     section#services {}
+
+     section#services div.service {}
+
+     section#services div {}
+
+     section#services div img {}
+
+     section#services div p {}
+
+     section#clients {}
+
+     section#clients h2 {text-align: center;}
+
+     section#clients div {}
+
+     section#clients div img {}
+     section#influence{}
+section#influence h2{}
+section#influence p{
+    font-size: 30px;
+}
+
+    main section#contact {}
+
+    main section#contact h2 {}
+
+    main section#contact form {}
+
+    main section#contact input {}
+
+    main section#contact textarea {}
+    main section#contact button{}
+
+     section#about {}
+     
+     section#about img{width: 50rem!important;}
+
+     section#about h2 {}
+
+     section#about p {}
+
+    .section-icon {}
+
+    .section-icons {}
 }

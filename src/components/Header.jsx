@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState } from 'react' ;
+import { Link } from 'react-router-dom';
 import '../styles/header.css'; // Asegúrate de que la ruta sea correcta
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
-
+import logo from '../assets/image/blackFumig-transformed.png'
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false); // Estado para el menú desplegable
 
@@ -15,27 +16,28 @@ function Header() {
     <header className="header">
       <div className="container">
         {/* Logo o título principal */}
-         {/* Navegación */}
-         <nav className={`navigation ${isMenuOpen ? 'open' : ''}`}>
-          <a href="#home" className="nav-link">Inicio</a>
-          <a href="#about" className="nav-link">Nosotros</a>
-          <a href="#services" className="nav-link">Servicios</a>
-          <a href="#clients" className="nav-link">Clientes</a>
-          <a href="#contact" className="nav-link">Contacto</a>
-        </nav>
+      
         <div className="logo">
+        <Link to="/">
           <img
-            src="src/assets/image/blackFumig-transformed.png"
+            src={logo}
             alt="Logo"
             className="logo-img"
-          />
+          /></Link> 
           
            {/* Icono de hamburguesa para pantallas móviles */}
         <div className="menu-toggle" onClick={toggleMenu}>
           <FontAwesomeIcon icon={faBars} />
         </div>
         </div>
-
+   {/* Navegación */}
+         <nav className={`navigation ${isMenuOpen ? 'open' : ''}`}>
+          <Link to="/" className="nav-link">Inicio</Link>
+          <Link to="/nosotros" className="nav-link">Nosotros</Link>
+          <Link to="/servicios" className="nav-link">Servicios</Link>
+          <Link to="/clientes" className="nav-link">Clientes</Link>
+          <a href="#contact" className="nav-link">Contacto</a>
+        </nav>
        
 
        

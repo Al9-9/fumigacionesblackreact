@@ -1,5 +1,36 @@
-div.cardImageSection{}
-div.cardImageSection.icon{}
-div.cardImageSection p.text-info{}
+div.cardImageSection{
 
+}
+
+div.cardImageSection.icons{}
+
+.cardImageSection:hover .icon svg,
+.cardImageSection:hover .texto {
+  color: #000000; 
+  transition: color 0.3s ease; 
+  cursor:pointer
+}
+
+p.text-info{display: none;color: black;}
+
+ p.text-info.open{display: flex;
+color: #212529
+!important}
+@media (min-width: 1024px) {div.cardImageSection{
+
+}
+div.section-icons{display: flex; flex-direction: row;
+justify-content: space-around;}
+div.cardImageSection{}
+
+.cardImageSection:hover .icon svg,
+.cardImageSection:hover .texto {
+
+}
+
+p.text-info{}
+
+ p.text-info.open{
+}}
+@media (min-width: 768px) and (max-width: 1024px) {}
 
