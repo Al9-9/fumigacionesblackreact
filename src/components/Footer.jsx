@@ -29,7 +29,7 @@ function Footer(){
     </div>
 
     <div className="footer-credit">
-      <p>Sitio web creado por <strong style={{cursor:'pointer'}}>Aldana Nuñez</strong></p>
+      <a href="https://www.linkedin.com/in/aldana-nu%C3%B1ez-4a997a146/" target="_blank"><p>Sitio web creado por <strong style={{cursor:'pointer'}}>Aldana Nuñez</strong></p></a>
     </div>
   </div>
 </footer>
