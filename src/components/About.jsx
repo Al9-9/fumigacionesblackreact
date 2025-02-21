@@ -12,7 +12,7 @@ function About() {
       <section id="about" className="">
         <h2 className="">Acerca de Nosotros</h2>
         <p className="">
-          En nuestra fumigadora nos dedicamos a ofrecer soluciones integrales de
+          En nuestra empresa nos dedicamos a ofrecer soluciones integrales de
           control de plagas, utilizando productos amigables con el medio
           ambiente y procedimientos altamente efectivos. Nuestro compromiso es
           ofrecerte un ambiente seguro y libre de plagas.

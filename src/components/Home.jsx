@@ -29,7 +29,7 @@ function Home() {
         {/* Sección de Párrafo Informativo */}
         <section id="home" className="">
           <p className="">
-            Somos una fumigadora comprometida con la salud y el bienestar de tu
+            Somos una empresa comprometida con la salud y el bienestar de tu
             hogar y negocio. Nuestros servicios están diseñados para ofrecerte
             soluciones efectivas y seguras para el control de plagas. Respaldados por un enfoque riguroso en la seguridad y la excelencia"
           </p>
@@ -42,14 +42,15 @@ function Home() {
               icon={faHandshakeSimple}
               texto="Compromiso"
               onClick={() => dropDownText(0)} 
-              info="En Fumigaciones Black, nos comprometemos a proporcionar servicios de la más alta calidad"
+              info="Como empresa nos comprometemos a proporcionar servicios de la más alta calidad"
               className={`text-info${openTextIndex === 0 ? ' open' : ''}`} // Aplica la clase open si el índice coincide
             />
             <CardImageSection
               icon={faBriefcase}
               texto="Metodología"
               onClick={() => dropDownText(1)} 
-              info="En Fumigaciones Black, seguimos un enfoque integral para el control de plagas..."
+              info="Seguimos un enfoque integral para el control de plagas y
+              la fumigación"
               className={`text-info${openTextIndex === 1 ? ' open' : ''}`} // Aplica la clase open si el índice coincide
             />
             <CardImageSection
